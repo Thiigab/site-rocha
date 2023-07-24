@@ -2,11 +2,32 @@
 
 .banner {
     background-image: url('imagens/Site\ do\ Rochax!.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
+    min-height: 320px;
+    max-height: 800px;
+    background-position: center center;
+}
+
+nav {
+    background-color: blueviolet;
+    padding: 10px;
 }
 
 a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
     text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: .7s;
+}
+
+a:hover {
+    color: blueviolet;
+    background-color: rgb(223, 223, 77);
+}
+
+iframe {
+    padding-top: 30px;
 }
