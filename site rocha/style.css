@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.banner {
+    background-image: url('imagens/Site\ do\ Rochax!.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+a {
+    text-decoration: none;
+}
